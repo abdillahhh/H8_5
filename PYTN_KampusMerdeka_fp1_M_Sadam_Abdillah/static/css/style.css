@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom right, #3fc3f3, black);
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    color: #36384c;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title2 {
+    color: #36384c;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.background {
+    width: 860px;
+    /* Menambahkan lebar yang lebih besar */
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.form1 {
+    width: 50%;
+    /* Mengurangi lebar form1 menjadi setengah dari background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form2 {
+    width: 50%;
+    /* Menambahkan lebar form2 menjadi setengah dari background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    background-color: #a0c1b8;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* Memberikan lebar penuh pada form */
+}
+
+form * {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #36384c;
+    letter-spacing: 0.5px;
+}
+
+form h3 {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    color: #36384c;
+    background-color: rgba(244, 244, 244);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #726a95;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form1 .message {
+    color: #303030;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
